@@ -1,0 +1,1 @@
+import{t as r}from"../i18n.js?v=23d4ed5";const o={1:["vel-normal","velNormal"],2:["vel-rapida","velRapida"],4:["vel-ultra","velUltra"],16:["vel-relampago","velRelampago"],32:["vel-doble","velDoble"]},v=e=>{const[l,a]=o[e]||o[1];return{ico:l,nombre:r(a)}},c=e=>+(Object.entries(o).find(([,[l]])=>e==="#i-"+l)||[1])[0];export{v as marchaDe,c as marchaDelIcono};
