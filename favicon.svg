@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- EL FAVICON (dueño, 2026-08-28): EL HORMIGUERO CON LA CORONA, EN AZUL y fondo transparente.
+       El montículo es el mismo dibujo que el icono del juego (#i-nido) y el azul es el del jugador
+       (state.js colors().mi), así que la pestaña dice lo mismo que el tablero. Antes era la reina
+       con corona dorada. SVG y no PNG: escala a cualquier tamaño y el fondo es transparente. -->
+  <!-- el montículo con su boca, del i-nido, escalado y bajado para dejar sitio a la corona -->
+  <g transform="translate(.4 2.9) scale(1.3)">
+    <path d="M2 21 9 7l1.6 3.2a4.5 4.5 0 0 0 2.8 0L15 7l7 14Zm8.2-8.2a6.5 6.5 0 0 0 3.6 0L15.6 16H8.4Z"
+      fill="#3f6fd0" fill-rule="evenodd"/>
+  </g>
+  <!-- la corona, apoyada en la cumbre, en el azul claro del jugador -->
+  <path d="M9.6 9.2 8.2 2.2 12.4 5.6 16 1 19.6 5.6 23.8 2.2 22.4 9.2Z" fill="#6f9de8"/>
+  <path d="M9.4 9.8h13.2v2.2H9.4Z" fill="#23458f"/>
+</svg>
