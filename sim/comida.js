@@ -1,0 +1,1 @@
+const r=1e5,e=t=>Math.round(t/1e4),s=6e5,S=1e5,c=3e5,C=5e4,E=6e6,p=200,o=[[.4,.5],[.8,1],[1,2]],x=t=>{for(const[A,n]of o)if(t<A)return n;return o[o.length-1][1]};export{S as ANT_COST,C as CARRONA,p as CAVA_COME,E as DOJO_DESPENSA,r as ESCALA,c as FOOD_VALUE,s as START_FOOD,o as TALLAS,e as enUnidades,x as tallaMiga};
