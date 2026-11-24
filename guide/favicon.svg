@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- Favicon de la guía de campo: el icono del LIBRO (mismo trazo que #i-libro de iconos.js), en el
+       oro cálido de la guía (la variable color-mundo, #d9a437) para que se lea en pestañas claras
+       y oscuras. OJO: nada de dos guiones seguidos aquí dentro — un comentario XML no los admite y
+       el navegador tira el SVG entero (el favicon desaparecía por eso).
+       Ampliado al 125% (2026-08-28): a 16 px el libro fino se convertía en una mancha. -->
+  <g transform="translate(12 12) scale(1.25) translate(-12 -12)">
+    <path fill="#d9a437" d="M4 3.2c2.5-.7 4.7-.4 6.5.8v15c-1.8-1.2-4-1.5-6.5-.8V3.2Zm16 0c-2.5-.7-4.7-.4-6.5.8v15c1.8-1.2 4-1.5 6.5-.8V3.2ZM11.5 4h1v15h-1z"/>
+  </g>
+</svg>

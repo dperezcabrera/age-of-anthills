@@ -1,0 +1,1 @@
+const l=(u,i)=>{let t=Math.imul(u|0,1664525)+Math.imul(i+1,1013904223)>>>0;return t=Math.imul(t^t>>>15,2246822519)>>>0,t=Math.imul(t^t>>>13,3266489917)>>>0,((t^t>>>16)>>>0)/4294967296};export{l as ruido};
